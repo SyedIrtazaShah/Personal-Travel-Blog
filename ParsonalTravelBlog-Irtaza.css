@@ -1,32 +1,30 @@
 #header{
     display: flex;
+    width: 70%;
+    align-content: center;
 }
 nav,
 nav ul{
     display: flex;
     align-items: center;
     list-style: none;
+    
+}
+nav ul{
+    margin-left: 300px;
+    font-size: x-large;
 }
 nav ul a {
 padding: 10px;
-font-size: 16px;
-color: aqua;
+color:red;
 }
-#free{
-    margin-left: 20px;
-    padding: 10px;
-    font-size: 16px;
-    color: white;
-    border: none;
-    transition: 0.3s ease-in-out;
-    background-color: blue;
-    border-radius: 10px;
-}
-header nav button:hover {
-    transform: scale(1.1);
+nav h1{
+    text-align: center;
 }
 #inner{
-    width: 1000px;
+    width: 70%;
     margin: auto;
-    background-color: aqua;
+}
+#homebutton{
+    color: yellowgreen;
 }
