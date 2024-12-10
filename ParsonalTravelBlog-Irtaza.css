@@ -1,3 +1,9 @@
+nav ul li{
+    transition: 0.3s ease-in-out;
+}
+nav ul li:hover{
+    color: green;
+}
 *{
     padding: 0px;
 }
@@ -29,7 +35,6 @@ nav h1{
     margin: auto;
 }
 #homebutton{
-    color: yellowgreen;
 }
 /* hero section */
 #detail{
@@ -146,5 +151,80 @@ height: 600px;
     transition: 0.3s ease-in-out;
 }
 #latest button:hover{
+    transform: scale(1.1);
+}
+
+.pic{
+    transition: 0.3s ease-in-out;
+}
+#post img:hover{
+    transform: scale(1.1);
+}
+#ideas{
+    width: 100%;
+    background-color: orange;
+    height: 500px;
+}
+#map h1{
+    text-align: center;
+    font-size: 50px;
+}
+#map p{
+    text-align: center;
+    font-size: 30px;
+}
+#place{
+    display: flex;
+justify-content: space-around;
+margin-top: -550px;
+
+align-items: center;
+}
+#place div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#first{
+    position: absolute;
+    z-index: 10;
+    
+}
+#second{
+    margin-top: 80px;
+
+}
+#third{
+    margin-top: -150px;
+}
+
+#follow{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+}
+#follow h1{
+    font-size: 50px;
+}
+#follow p{
+    font-size: 30px;
+}
+
+#ME button{
+    background-color: black;
+    color: orange;
+    width: 300PX;
+    height: 90PX;
+    margin-left: 510PX;
+    margin-top: -470PX;
+    font-size: 30PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s ease-in-out;
+    border: none;
+    border-radius: 10px;
+
+}
+#ME button:hover{
     transform: scale(1.1);
 }
